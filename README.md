@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ajaymude" alt="ajaymude" /></a> </p>
 
-- 👨‍💻 All of my projects are available at [https://ajaymude.github.io/portfolio/](https://ajaymude.github.io/portfolio/)
+- 👨‍💻 All of my projects are available at [https://ajaymude.github.io/ajaymude//](https://ajaymude.github.io/ajaymude//)
 
 - 📝 I regularly write articles on [https://medium.com/@ajaymude](https://medium.com/@ajaymude)
 
