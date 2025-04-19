@@ -1,0 +1,370 @@
+[
+  {
+    "title": "Certification No 1",
+    "imageSrc": "certificates/html1.jpg",
+    "skills": ["HTML"],
+    "demo": "https://www.udemy.com/certificate/UC-08c22a13-70be-4d9c-88c3-e20cc1addfd7/"
+    
+  },
+
+  {
+    "title": "Certification No 2",
+    "imageSrc": "certificates/js1.jpg",
+    "skills": ["javascript"],
+    "demo": "https://www.udemy.com/certificate/UC-2d6f16b6-3eef-4343-8a63-78a2f8ab296e/"
+  },
+
+  {
+    "title": "Certification No 3",
+    "imageSrc": "certificates/aws1.jpg",
+    "skills": ["AWS E2"],
+    "demo": "https://www.udemy.com/certificate/UC-66b8eb0c-4720-4e5e-b8ea-a8e087ac3832/"
+  },
+
+  {
+    "title": "Certification No 4",
+    "imageSrc": "certificates/wp1.jpg",
+    "skills": ["Wordpress"],
+    "demo": "https://www.udemy.com/certificate/UC-a58683cd-3b42-4e7a-a316-b24d6c80562b/"
+  },
+
+  {
+    "title": "Certification No 5",
+    "imageSrc": "certificates/html2.jpg",
+    "skills": ["HTML" , "CSS" , "javascript"] ,
+    "demo": "https://www.udemy.com/certificate/UC-6f908b9d-01ae-4fa1-8285-8252280a2357/"
+  },
+
+
+  {
+    "title": "Certification No 6",
+    "imageSrc": "certificates/html3.jpg",
+    "skills": ["HTML" ,"CSS" , "AWS E2"] ,
+    "demo": "https://www.udemy.com/certificate/UC-77317f04-4cc6-46f7-b100-d7b784c962ff/"
+  },
+
+
+  {
+    "title": "Certification No 7",
+    "imageSrc": "certificates/html4.jpg",
+    "skills": ["HTML" , "CSS" , "javascript" , "ReactJs"],
+    "demo": "https://www.udemy.com/certificate/UC-f3dc6fcf-83d5-448a-a510-30eae0541210/"
+  },
+
+  {
+    "title": "Certification No 8",
+    "imageSrc": "certificates/html5.jpg",
+    "skills": ["HTML", "CSS" , "javascript"],
+    "demo": "https://www.udemy.com/certificate/UC-afe09b05-87b7-4649-829e-0851c14d0973/"
+  },
+
+  {
+    "title": "Certification No 9",
+    "imageSrc": "certificates/html6.jpg",
+    "skills": ["HTML"],
+    "demo": "https://www.udemy.com/certificate/UC-ab7b63ac-4ddd-4120-a495-73d39b312ba9/"
+  },
+
+
+  {
+    "title": "Certification No 10",
+    "imageSrc": "certificates/html7.jpg",
+    "skills": ["HTML"],
+    "demo": "https://www.udemy.com/certificate/UC-08c22a13-70be-4d9c-88c3-e20cc1addfd7/"
+  },
+
+
+  {
+    "title": "Certification No 11",
+    "imageSrc": "certificates/wp2.jpg",
+    "skills": ["Wordpress"],
+    "demo": "https://www.udemy.com/certificate/UC-54703b14-18fb-41a0-bdd5-e34a0e5e2af7/"
+  },
+
+
+  {
+    "title": "Certification No 12",
+    "imageSrc": "certificates/rn1.jpg",
+    "skills": ["React Native"],
+    "demo": "https://www.udemy.com/certificate/UC-30c6928f-4fa7-49ca-8122-3e9e8485af65/"
+  },
+
+
+  {
+    "title": "Certification No 13",
+    "imageSrc": "certificates/mern1.jpg",
+    "skills": ["Node.js" , "Express.js" , "MongoDB"],
+    "demo": "https://www.udemy.com/certificate/UC-0c3d1b7a-bd53-41f9-93e7-0736d24a969d/"
+  },
+
+  {
+    "title": "Certification No 14",
+    "imageSrc": "certificates/next1.jpg",
+    "skills": ["Nextjs"],
+    "demo": "https://www.udemy.com/certificate/UC-d305ee70-54ce-4bb9-a690-1640aa0a53b4/"
+  },
+
+  {
+    "title": "Certification No 15",
+    "imageSrc": "certificates/ts1.jpg",
+    "skills": ["HTML"],
+    "demo": "https://www.udemy.com/certificate/UC-1d1dbfc2-ebff-470a-8e1f-443f05a8381f/"
+  },
+
+  {
+    "title": "Certification No 16",
+    "imageSrc": "certificates/wp3.jpg",
+    "skills": ["Wordpress"],
+    "demo": "https://www.udemy.com/certificate/UC-c6574649-44de-4481-b6c5-e40f47ca93a9/"
+  },
+  {
+    "title": "Certification No 17",
+    "imageSrc": "certificates/figma1.jpg",
+    "skills": ["Figma"],
+    "demo": "https://www.udemy.com/certificate/UC-75276b80-efa7-48d9-ad04-ecf31b3f3a8a/"
+  },  {
+    "title": "Certification No 18",
+    "imageSrc": "certificates/dsa1.jpg",
+    "skills": ["DSA"],
+    "demo": "https://www.udemy.com/certificate/UC-82956649-a255-4cf9-bdc1-c28c82f007ca/"
+  },
+  {
+    "title": "Certification No 19",
+    "imageSrc": "certificates/seo2.jpg",
+    "skills": ["SEO"],
+    "demo": "https://www.udemy.com/certificate/UC-60da7d1a-207e-4d81-b71d-f285e84a11d0/"
+  },  {
+    "title": "Certification No 20",
+    "imageSrc": "certificates/js2.jpg",
+    "skills": ["javascript"],
+    "demo": "https://www.udemy.com/certificate/UC-442db39f-8aba-4a1d-b177-60c46545d5bd/"
+  },
+  {
+    "title": "Certification No 21",
+    "imageSrc": "certificates/js3.jpg",
+    "skills": ["javascript"],
+    "demo": "https://www.udemy.com/certificate/UC-eed1eb85-4d31-4916-91dc-4383a0759a6b/"
+  },
+  {
+    "title": "Certification No 22",
+    "imageSrc": "certificates/css1.jpg",
+    "skills": ["CSS"],
+    "demo": "https://www.udemy.com/certificate/UC-f53e10ed-041e-423b-a5e3-ced744b9a605/"
+  },
+  {
+    "title": "Certification No 23",
+    "imageSrc": "certificates/css2.jpg",
+    "skills": ["HTML"],
+    "demo": "https://www.udemy.com/certificate/UC-186c4995-dab0-4a09-81d2-4b7b4853b238/"
+  },
+  {
+    "title": "Certification No 24",
+    "imageSrc": "certificates/tcss1.jpg",
+    "skills": ["Tailwind CSS"],
+    "demo": "https://www.udemy.com/certificate/UC-88ad09e4-e84e-4de9-b7a9-0abea8a77ffc/"
+  },
+  {
+    "title": "Certification No 25",
+    "imageSrc": "certificates/webdev.jpg",
+    "skills": ["Web Development"],
+    "demo": "https://www.udemy.com/certificate/UC-4d869286-204d-4a45-aa38-729acc0f155d/"
+  },
+  {
+    "title": "Certification No 26",
+    "imageSrc": "certificates/css3.jpg",
+    "skills": ["CSS" , "flex" , "Grid" , "Media Query"],
+    "demo": "https://www.udemy.com/certificate/UC-6ee13696-b88a-45d6-8eed-2353ca7f75fa/"
+  },
+  {
+    "title": "Certification No 27",
+    "imageSrc": "certificates/bootstrap1.jpg",
+    "skills": ["HTML" , "CSS" , "Bootstrap" , "ReactJs" , "javascript"],
+    "demo": "https://www.udemy.com/certificate/UC-468c647b-8a9f-461e-95e5-ce88e7fe88b1/"
+  },
+  {
+    "title": "Certification No 28",
+    "imageSrc": "certificates/js4.jpg",
+    "skills": ["javascript"],
+    "demo": "https://www.udemy.com/certificate/UC-6fc3c689-0179-495a-b2a3-5b4451848349/"
+  },
+  {
+    "title": "Certification No 29",
+    "imageSrc": "certificates/tcss2.jpg",
+    "skills": ["Tailwind CSS"],
+    "demo": "https://www.udemy.com/certificate/UC-42e94f45-b207-44c6-8a0b-e4196db57f7c/"
+  },
+  {
+    "title": "Certification No 30",
+    "imageSrc": "certificates/react1.jpg",
+    "skills": ["ReactJs"],
+    "demo": "https://www.udemy.com/certificate/UC-5f01815d-2364-4bb4-81a4-6e727d20edfd/"
+  },
+  {
+    "title": "Certification No 31",
+    "imageSrc": "certificates/js5.jpg",
+    "skills": ["javascript"],
+    "demo": "https://www.udemy.com/certificate/UC-249aa2aa-3856-480c-8062-dbe2ee5c8578/"
+  } 
+  ,
+  {
+    "title": "Certification No 32",
+    "imageSrc": "certificates/figma2.jpg",
+    "skills": ["Figma"],
+    "demo": "https://www.udemy.com/certificate/UC-06eb9d48-db0b-412d-bbe0-524e2db1291b/"
+  }
+  ,
+  {
+    "title": "Certification No 33",
+    "imageSrc": "certificates/seo3.jpg",
+    "skills": ["SEO"],
+    "demo": "https://www.udemy.com/certificate/UC-990ce57b-ec32-4551-b629-de1d6a6151d5/"
+  }
+  ,
+  {
+    "title": "Certification No 34",
+    "imageSrc": "certificates/next2.jpg",
+    "skills": ["Nextjs", "Tailwind CSS"],
+    "demo": "https://www.udemy.com/certificate/UC-0b45a060-134d-467c-912f-08832ad43972/"
+  }
+  ,
+  {
+    "title": "Certification No 35",
+    "imageSrc": "certificates/figma3.jpg",
+    "skills": ["Figma"],
+    "demo": "https://www.udemy.com/certificate/UC-0d7de7ce-f46b-4de8-b356-b6e68db2e442/"
+  }
+  ,
+  {
+    "title": "Certification No 36",
+    "imageSrc": "certificates/react2.jpg",
+    "skills": ["ReactJs"],
+    "demo": "https://www.udemy.com/certificate/UC-e8e50072-8937-40f5-96a0-1977cf71d50b/"
+  }
+  ,
+  {
+    "title": "Certification No 37",
+    "imageSrc": "certificates/css4.jpg",
+    "skills": ["CSS"],
+    "demo": "https://www.udemy.com/certificate/UC-4a47555c-c231-4553-8f23-2b2461556f85/"
+  }
+  ,
+  {
+    "title": "Certification No 38",
+    "imageSrc": "certificates/rn2.jpg",
+    "skills": ["React Native"],
+    "demo": "https://www.udemy.com/certificate/UC-49bbd40c-369a-4194-8044-7c9b2410ffbf/"
+  }
+  ,
+  {
+    "title": "Certification No 39",
+    "imageSrc": "certificates/css5.jpg",
+    "skills": ["CSS"],
+    "demo": "https://www.udemy.com/certificate/UC-bb477ab0-2f37-47f9-afef-70860eea558c/"
+  }
+  ,
+  {
+    "title": "Certification No 40",
+    "imageSrc": "certificates/next3.jpg",
+    "skills": ["Nextjs"],
+    "demo": "https://www.udemy.com/certificate/UC-760cd26f-ca94-498e-9332-87db000d14cc/"
+  }
+  ,
+  {
+    "title": "Certification No 41",
+    "imageSrc": "certificates/mern2.jpg",
+    "skills": ["MERN"],
+    "demo": "https://www.udemy.com/certificate/UC-4f9f003e-3c0e-46d4-b1ef-434f43677df9/"
+  }
+  ,
+  {
+    "title": "Certification No 42",
+    "imageSrc": "certificates/chatgpt1.jpg",
+    "skills": ["ChatGPT"],
+    "demo": "https://www.udemy.com/certificate/UC-a2f0b316-d4f6-4719-951b-5b681a369d9e/"
+  }
+  ,
+  {
+    "title": "Certification No 43",
+    "imageSrc": "certificates/bootstrap2.jpg",
+    "skills": ["Bootstrap"],
+    "demo": "https://www.udemy.com/certificate/UC-851e7be3-4014-4588-9997-807b4d1ae86e/"
+  }
+  ,
+  {
+    "title": "Certification No 44",
+    "imageSrc": "certificates/react3.jpg",
+    "skills": ["javascript" , "ReactJs"],
+    "demo": "https://www.udemy.com/certificate/UC-b7163ed2-cc78-4310-9139-4826a9ea0f6e/"
+  }
+  ,
+  {
+    "title": "Certification No 45",
+    "imageSrc": "certificates/chatgpt2.jpg",
+    "skills": ["ChatGPT"],
+    "demo": "https://www.udemy.com/certificate/UC-6744bc49-c327-4d55-9f23-1470f6c10805/"
+  }
+  ,
+  {
+    "title": "Certification No 46",
+    "imageSrc": "certificates/seo4.jpg",
+    "skills": ["SEO"],
+    "demo": "https://www.udemy.com/certificate/UC-0bb119b6-c0cb-464d-b601-616973320e40/"
+  }
+  ,
+  {
+    "title": "Certification No 47",
+    "imageSrc": "certificates/aws2.jpg",
+    "skills": ["AWS E2"],
+    "demo": "https://www.udemy.com/certificate/UC-bae06fdc-0ae3-4971-8601-459fafe602d9/"
+  }
+  ,
+  {
+    "title": "Certification No 48",
+    "imageSrc": "certificates/git1.jpg",
+    "skills": ["Git" , "Github"],
+    "demo": "https://www.udemy.com/certificate/UC-468dda5c-1c9d-4c9c-b70d-ec34110918af/"
+  }
+  ,
+  {
+    "title": "Certification No 49",
+    "imageSrc": "certificates/git2.jpg",
+    "skills": ["Git"],
+    "demo": "https://www.udemy.com/certificate/UC-c7114df5-f82d-45f4-ba63-f8e24fbc8c76/"
+  }
+  ,
+  {
+    "title": "Certification No 50",
+    "imageSrc": "certificates/ts2.jpg",
+    "skills": ["Typescript"],
+    "demo": "https://www.udemy.com/certificate/UC-db8f4f5c-3f5f-4414-a9b7-f86351b8f91f/"
+  }
+  ,
+  {
+    "title": "Certification No 51",
+    "imageSrc": "certificates/agile.jpg",
+    "skills": ["Agile"],
+    "demo": "https://www.udemy.com/certificate/UC-52af82dc-2653-4e54-9ead-c960c24dc5a6/"
+  }
+  ,
+  {
+    "title": "Certification No 52",
+    "imageSrc": "certificates/figma4.jpg",
+    "skills": ["Figma"],
+    "demo": "https://www.udemy.com/certificate/UC-948f8270-1f01-4466-bb62-573894ad331a/"
+  }
+  ,
+  {
+    "title": "Certification No 53",
+    "imageSrc": "certificates/aws3.jpg",
+    "skills": ["AWS E2"],
+    "demo": "https://www.udemy.com/certificate/UC-ebaa8de3-6a0b-4b5e-b695-50f89c015ed3/"
+  }
+  ,
+  {
+    "title": "Certification No 54",
+    "imageSrc": "certificates/sa1.jpg",
+    "skills": ["Software architecture"],
+    "demo": "https://www.udemy.com/certificate/UC-738ae037-fcc1-4f3d-8799-24abd541171a/"
+  }
+
+]

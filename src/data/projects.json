@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Studytube",
+    "imageSrc": "projects/studytube.png",
+    "description": "Studytube aids English learning with instructional videos  exercises.",
+    "skills": ["React", "Express", "Node" , "MongoDB"],
+    "demo": "https://englishtube.onrender.com/",
+    "source": "https://github.com/ajaymude/EnglishTube"
+  },
+  {
+    "title": "Blog app",
+    "imageSrc": "projects/blogapp.png",
+    "description": "A blog app enables easy creation, sharing, and reading of blogs.",
+    "skills": ["React", "Express", "Node" ,"MongoDB"],
+    "demo": "https://ajayblog.onrender.com/",
+    "source": "https://github.com/ajaymude/mernblog"
+  },
+  {
+    "title": "ChatGPT clone",
+    "imageSrc": "projects/chatgpt.png",
+    "description": "A ChatGPT clone app offers AI-driven conversation and information assistance.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://chatgptajay.onrender.com/",
+    "source": "https://github.com/ajaymude/mernchatgpt"
+  }
+]
