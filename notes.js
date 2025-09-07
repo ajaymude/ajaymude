@@ -1,0 +1,1 @@
+// add a filter button on the certificates page to filter by type of certificate (course, hackathon, competition, etc.)
