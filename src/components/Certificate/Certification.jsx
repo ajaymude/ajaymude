@@ -42,7 +42,6 @@ const filter = (e, value) => {
       .filter(project => project.allCertificates.length > 0); // remove empty groups
 
     setSkill(filteredProjects);
-    console.log(filteredProjects, "filteredProjects");
   }
 };
 
@@ -75,7 +74,7 @@ const filter = (e, value) => {
           return (
             <div key={id} className={styles.projects}>
               {allCertificates.map((project, id) => {
-                return <Card key={id} project={project} />;
+                return <Card key={id} project={project} id={id}/>;
               })}
             </div>
           );

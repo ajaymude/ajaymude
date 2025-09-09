@@ -3,8 +3,9 @@ import styles from './Card.module.css'
 import { getImageUrl } from "../../utils";
 
 const Card = ({
-    project: { title, imageSrc, skills, demo},
+    id , project: { title, imageSrc, skills, demo}
   }) => {
+
     return (
         <div className={styles.container}>
           <img
@@ -12,12 +13,12 @@ const Card = ({
             alt={`Image of ${title}`}
             className={styles.image}
           />
-          <h3 className={styles.title}>{title}</h3>
+          <h3 className={styles.title}>{title  } Certificate - { id+1 }</h3>
 
           <ul className={styles.skills}>
             {skills.map((skill, id) => {
               return (
-                <li key={id} className={styles.skill}>
+                <li key={id}  className={styles.skill}>
                   {skill}
                 </li>
               );
