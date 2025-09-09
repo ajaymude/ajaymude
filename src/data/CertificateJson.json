@@ -1,35 +1,48 @@
 [
   {
-    "title": "Figma",
+    "title": "UI/UX",
     "allCertificates": [
       {
-        "title": " Figma ",
-        "imageSrc": "certificates/html1.jpg",
-        "skills": ["Figma"],
-        "demo": "https://www.udemy.com/certificate/UC-08c22a13-70be-4d9c-88c3-e20cc1addfd7/"
+        "title": "Figma",
+        "imageSrc": "certificates/01-figma/figma-1.jpg",
+        "skills": ["Figma" , "UI/UX"],
+        "demo": "https://www.udemy.com/certificate/UC-3014518c-4d8d-4862-9e4a-1b3962194ea6/"
       },
       {
-        "title": " Figma",
-        "imageSrc": "certificates/html1.jpg",
-        "skills": ["HTML"],
-        "demo": "https://www.udemy.com/certificate/UC-08c22a13-70be-4d9c-88c3-e20cc1addfd7/"
-      }
-    ]
-  },
-  {
-    "title": "HTML",
-    "allCertificates": [
-      {
-        "title": " HTML",
-        "imageSrc": "certificates/html1.jpg",
-        "skills": ["Figma"],
-        "demo": "https://www.udemy.com/certificate/UC-08c22a13-70be-4d9c-88c3-e20cc1addfd7/"
+        "title": "Figma",
+        "imageSrc": "certificates/01-figma/figma-2.jpg",
+        "skills": ["Figma" , "UI/UX"],
+        "demo": "https://www.udemy.com/certificate/UC-06aeb50d-3e1b-4b65-a45b-950a89bf6b24/"
       },
       {
-        "title": " HTML",
-        "imageSrc": "certificates/html1.jpg",
-        "skills": ["Figma"],
-        "demo": "https://www.udemy.com/certificate/UC-08c22a13-70be-4d9c-88c3-e20cc1addfd7/"
+        "title": "Figma",
+        "imageSrc": "certificates/01-figma/figma-3.jpg",
+        "skills": ["Figma" , "UI/UX"],
+        "demo": "https://www.udemy.com/certificate/UC-61c7ac19-9dae-4033-93c9-14602b652271/"
+      },
+      {
+        "title": "Figma",
+        "imageSrc": "certificates/01-figma/figma-4.jpg",
+        "skills": ["Figma" , "UI/UX"],
+        "demo": "https://www.udemy.com/certificate/UC-e1f43560-4005-4651-abe6-3c2556e9aac0/"
+      },
+      {
+        "title": "Figma",
+        "imageSrc": "certificates/01-figma/figma-5.jpg",
+        "skills": ["Figma" , "UI/UX"],
+        "demo": "https://www.udemy.com/certificate/UC-4b417d11-9cd9-4fd4-9be6-7be72a43e44f/"
+      },
+      {
+        "title": "Figma",
+        "imageSrc": "certificates/01-figma/figma-6.jpg",
+        "skills": ["Figma" , "UI/UX"],
+        "demo": "https://www.udemy.com/certificate/UC-9f9ec84e-c690-44bf-b19d-352cc3945cf1/"
+      },
+      {
+        "title": "Figma",
+        "imageSrc": "certificates/01-figma/figma-7.jpg",
+        "skills": ["Figma" , "UI/UX"],
+        "demo": "https://www.udemy.com/certificate/UC-a117c5ef-51ef-4eb2-be65-79409dcdfcb5/"
       }
     ]
   }
