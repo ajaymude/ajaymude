@@ -51,9 +51,37 @@
     "allCertificates": [
       {
         "title": "HTML",
-        "imageSrc": "certificates/01-figma/figma-1.jpg",
+        "imageSrc": "certificates/02-html/html-1.jpg",
         "skills": ["HTML"],
-        "demo": "https://www.udemy.com/certificate/UC-3014518c-4d8d-4862-9e4a-1b3962194ea6/"
+        "demo": "https://www.udemy.com/certificate/UC-c4e2d0e4-8c00-467c-9ca2-028d76cca51e/"
+      }
+    ]
+  },
+  {
+    "title": "CSS",
+    "allCertificates": [
+      {
+        "title": "CSS",
+        "imageSrc": "certificates/03-css/css-1.jpg",
+        "skills": ["CSS", "HTML"],
+        "demo": "https://www.udemy.com/certificate/UC-8c05a8a1-244a-4c41-8893-a5f7eb3cc7a4/"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "certificates/03-css/css-2.jpg",
+        "skills": ["CSS", "HTML"],
+        "demo": "https://www.udemy.com/certificate/UC-9617bb88-7903-452d-b95c-f8e4290064cd/"
+      }
+    ]
+  },
+  {
+    "title": "Javascript",
+    "allCertificates": [
+      {
+        "title": "Javascript",
+        "imageSrc": "certificates/02-html/html-1.jpg",
+        "skills": ["Javascript"],
+        "demo": "https://www.udemy.com/certificate/UC-c4e2d0e4-8c00-467c-9ca2-028d76cca51e/"
       }
     ]
   }

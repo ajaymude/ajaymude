@@ -63,7 +63,6 @@ const Certification = () => {
         {/* {projects.map((project, id) => {
           return <Card key={id} project={project} />;
         })} */}
-        <hr />
         {skill.map(({ title, allCertificates }, id) => {
           return (
             <div key={id} className={styles.projects}>
