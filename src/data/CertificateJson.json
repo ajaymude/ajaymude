@@ -54,6 +54,12 @@
         "imageSrc": "certificates/02-html/html-1.jpg",
         "skills": ["HTML"],
         "demo": "https://www.udemy.com/certificate/UC-c4e2d0e4-8c00-467c-9ca2-028d76cca51e/"
+      },
+      {
+        "title": "HTML",
+        "imageSrc": "certificates/02-html/html-2.jpg",
+        "skills": ["HTML"],
+        "demo": "https://www.udemy.com/certificate/UC-d79122cd-5503-4516-b67b-88b6b3453ffe/"
       }
     ]
   },
@@ -71,6 +77,24 @@
         "imageSrc": "certificates/03-css/css-2.jpg",
         "skills": ["CSS", "HTML"],
         "demo": "https://www.udemy.com/certificate/UC-9617bb88-7903-452d-b95c-f8e4290064cd/"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "certificates/03-css/css-3.jpg",
+        "skills": ["CSS", "HTML"],
+        "demo": "https://www.udemy.com/certificate/UC-48c1c318-c855-4628-8f1d-2cfece9c0e3a/"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "certificates/03-css/css-4.jpg",
+        "skills": ["CSS", "HTML"],
+        "demo": "https://www.udemy.com/certificate/UC-af2d4386-f060-46ee-aa44-486dafc79c23/"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "certificates/03-css/css-5.jpg",
+        "skills": ["CSS", "HTML"],
+        "demo": "https://www.udemy.com/certificate/UC-91922259-50b1-4597-9287-97fd2df304ac/"
       }
     ]
   },
@@ -79,9 +103,27 @@
     "allCertificates": [
       {
         "title": "Javascript",
-        "imageSrc": "certificates/02-html/html-1.jpg",
+        "imageSrc": "certificates/04-javascript/javascript-1.jpg",
         "skills": ["Javascript"],
-        "demo": "https://www.udemy.com/certificate/UC-c4e2d0e4-8c00-467c-9ca2-028d76cca51e/"
+        "demo": "https://www.udemy.com/certificate/UC-442db39f-8aba-4a1d-b177-60c46545d5bd/"
+      },
+      {
+        "title": "Javascript",
+        "imageSrc": "certificates/04-javascript/javascript-2.jpg",
+        "skills": ["Javascript"],
+        "demo": "https://www.udemy.com/certificate/UC-62fa20b0-eecb-4e11-bc02-2d7f4d4a828b/"
+      },
+      {
+        "title": "Javascript",
+        "imageSrc": "certificates/04-javascript/javascript-3.jpg",
+        "skills": ["Javascript"],
+        "demo": "https://www.udemy.com/certificate/UC-1c431d77-4597-4809-a884-bff826e22da8/"
+      },
+      {
+        "title": "Javascript",
+        "imageSrc": "certificates/04-javascript/javascript-4.jpg",
+        "skills": ["Javascript"],
+        "demo": "https://www.udemy.com/certificate/UC-7g8h9i0j-k1l2m3n4o5p6-1a2b3c4d-5e6f/"
       }
     ]
   }
