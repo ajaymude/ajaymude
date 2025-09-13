@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-import resume from '../../../assets/resume/ajay mude resume .pdf'
+import resume from '../../../assets/resume/ajay mude resume.pdf'
 
 export const Hero = () => {
   return (

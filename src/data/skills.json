@@ -1,176 +1,114 @@
-[ 
+[
   {
-  "title": "Figma",
-  "imageSrc": "skills/figma.png",
-  "category":"uiux"
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "category": "uiux"
   },
-
-
 
   {
     "title": "HTML",
     "imageSrc": "skills/html.png",
-    "category":"frontend"
+    "category": "frontend"
   },
   {
     "title": "CSS",
     "imageSrc": "skills/css.png",
-    "category":"frontend"
-  },
-
-  {
-    "title": "Bootstarp",
-    "imageSrc": "skills/bootstrap.png",
-    "category":"frontend"
+    "category": "frontend"
   },
 
   {
     "title": "Tailwind CSS",
     "imageSrc": "skills/tailwindcss.png",
-    "category":"frontend"
+    "category": "frontend"
   },
   {
     "title": "Javascript",
     "imageSrc": "skills/javascript.png",
-    "category":"frontend"
+    "category": "frontend"
   },
 
   {
     "title": "Typescript",
     "imageSrc": "skills/typescript.png",
-    "category":"frontend"
+    "category": "frontend"
   },
-  
+
   {
     "title": "React",
     "imageSrc": "skills/react.png",
-    "category":"frontend"
+    "category": "frontend"
   },
-
-
 
   {
     "title": "Nodejs",
     "imageSrc": "skills/node.png",
-    "category":"backend"
-
+    "category": "backend"
   },
   {
     "title": "Express.js",
     "imageSrc": "skills/expressjs.png",
-    "category":"backend"
+    "category": "backend"
   },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png",
-    "category":"backend"
-  },
-
-
 
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png",
-    "category":"database"
+    "category": "database"
   },
-  {
-    "title": "PostgreSQL",
-    "imageSrc": "skills/postgresql.png",
-    "category":"database"
-  },
-
-
 
   {
     "title": "MERN",
     "imageSrc": "skills/mern.png",
-    "category":"fullstack"
-  }, 
+    "category": "fullstack"
+  },
   {
     "title": "Next.js",
     "imageSrc": "skills/nextjs.png",
-    "category":"fullstack"
-  }, 
-
-
+    "category": "fullstack"
+  },
 
   {
     "title": "Vitest",
     "imageSrc": "skills/vitest.png",
-    "category":"quality"
-  }, 
-
-
+    "category": "quality"
+  },
+  {
+    "title": "Jest",
+    "imageSrc": "skills/jest.png",
+    "category": "quality"
+  },
 
   {
-    "title": "AWS",
-    "imageSrc": "skills/aws.png",
-    "category":"devops"
+    "title": "Docker",
+    "imageSrc": "skills/docker.png",
+    "category": "devops"
   },
   {
     "title": "Git",
     "imageSrc": "skills/git.png",
-    "category":"devops"
-  },  {
+    "category": "devops"
+  },
+  {
     "title": "Github",
     "imageSrc": "skills/github.png",
-    "category":"devops"
+    "category": "devops"
   },
-
-
 
   {
     "title": "React Native",
     "imageSrc": "skills/reactnative.png",
-    "category":"apps"
-  }, 
-
-
+    "category": "apps"
+  },
 
   {
     "title": "Electron",
     "imageSrc": "skills/electron.png",
-    "category":"desktop"
+    "category": "desktop"
   },
 
-
-
-  {
-    "title": "SEO",
-    "imageSrc": "skills/seo.png",
-    "category":"marketing"
-  }, 
-  
-
-  {
-    "title": "Wordpress",
-    "imageSrc": "skills/wordpress.png",
-    "category":"nocode"
-  },
-
-  
   {
     "title": "Redux",
     "imageSrc": "skills/redux.png",
-    "category":"extra"
-  },
-  {
-    "title": "Notion",
-    "imageSrc": "skills/notion.png",
-    "category":"extra"
-  },  {
-    "title": "MS Office",
-    "imageSrc": "skills/msoffice.png",
-    "category":"extra"
-  },    {
-    "title": "Chart.js",
-    "imageSrc": "skills/chartjs.png",
-    "category":"extra"
-  },
-  {
-    "title": "VS Code ",
-    "imageSrc": "skills/vscode.png",
-    "category":"extra"
+    "category": "extra"
   }
-
 ]

@@ -86,13 +86,8 @@ export const Experience = () => {
           <span className={styles.buttoncontent}>Desktop Apps Development </span>
         </button>
 
-        <button onClick={(e) => filter(e, "marketing")} className={styles.button}>
-          <span className={styles.buttoncontent}>Marketing</span>
-        </button>
 
-        <button onClick={(e) => filter(e, "nocode")} className={styles.button}>
-          <span className={styles.buttoncontent}>CMS </span>
-        </button>
+
 
         <button onClick={(e) => filter(e, "extra")} className={styles.button}>
           <span className={styles.buttoncontent}>Additional Skills </span>

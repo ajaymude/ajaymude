@@ -216,5 +216,228 @@
         "demo": "https://www.udemy.com/certificate/UC-e6bd9dc5-eb4e-46fd-9df0-be31965acebe/"
       }
     ]
+  },
+  {
+    "title": "MERN",
+    "allCertificates": [
+      {
+        "title": "MERN",
+        "imageSrc": "certificates/11-mern/mern-1.jpg",
+        "skills": ["MERN"],
+        "demo": "https://www.udemy.com/certificate/UC-5b24c95d-7e03-40ca-be33-afde1f45ccde/"
+      },
+      {
+        "title": "MERN",
+        "imageSrc": "certificates/11-mern/mern-2.jpg",
+        "skills": ["MERN"],
+        "demo": "https://www.udemy.com/certificate/UC-8279b759-80f9-42f5-a65b-a8c7fba2ecaf/"
+      }
+    ]
+  },
+  {
+    "title": "React Native",
+    "allCertificates": [
+      {
+        "title": "React Native",
+        "imageSrc": "certificates/12-reactnative/reactnative-1.jpg",
+        "skills": ["React Native"],
+        "demo": "https://www.udemy.com/certificate/UC-30c6928f-4fa7-49ca-8122-3e9e8485af65/"
+      },
+      {
+        "title": "React Native",
+        "imageSrc": "certificates/12-reactnative/reactnative-2.jpg",
+        "skills": ["React Native"],
+        "demo": "https://www.udemy.com/certificate/UC-bc8f81b3-0507-4909-8f97-647cc91a5dfb/"
+      }
+    ]
+  },
+  {
+    "title": "Electron",
+    "allCertificates": [
+      {
+        "title": "Electron",
+        "imageSrc": "certificates/13-electron/electron-1.jpg",
+        "skills": ["Electron"],
+        "demo": "https://www.udemy.com/certificate/UC-cef236a4-f1ee-4eea-b336-8a3f9fe5dd88/"
+      },
+      {
+        "title": "Electron",
+        "imageSrc": "certificates/13-electron/electron-2.jpg",
+        "skills": ["Electron"],
+        "demo": "https://www.udemy.com/certificate/UC-307ecf7d-f0bd-480c-a7f4-8e4cc649a36a/"
+      }
+    ]
+  },
+  {
+    "title": "NextJS",
+    "allCertificates": [
+      {
+        "title": "NextJS",
+        "imageSrc": "certificates/14-nextjs/nextjs-1.jpg",
+        "skills": ["NextJS"],
+        "demo": "https://www.udemy.com/certificate/UC-9ef49fd9-a498-4d31-a737-50e192e1cd99/"
+      },
+      {
+        "title": "NextJS",
+        "imageSrc": "certificates/14-nextjs/nextjs-2.jpg",
+        "skills": ["NextJS"],
+        "demo": "https://www.udemy.com/certificate/UC-92cd906b-7b53-43b7-a9e1-5e23270c14f0/"
+      }
+    ]
+  },
+  {
+    "title": "Testing",
+    "allCertificates": [
+      {
+        "title": "Testing",
+        "imageSrc": "certificates/15-testing/testing-1.jpg",
+        "skills": ["Testing"],
+        "demo": "https://www.udemy.com/certificate/UC-83e5409a-dc36-4987-8610-d25e36b78800/"
+      },
+      {
+        "title": "Testing",
+        "imageSrc": "certificates/15-testing/testing-2.jpg",
+        "skills": ["Testing"],
+        "demo": "https://www.udemy.com/certificate/UC-748dc46f-1f6b-47fe-9b6c-85bf066edba3/"
+      }
+    ]
+  },
+  {
+    "title": "Socket IO",
+    "allCertificates": [
+      {
+        "title": "Socket IO",
+        "imageSrc": "certificates/16-socketio/socketio-1.jpg",
+        "skills": ["Socket IO"],
+        "demo": "https://www.udemy.com/certificate/UC-173f57c0-9cf4-4fa8-89d7-c400a37d49b2/"
+      }
+    ]
+  },
+  {
+    "title": "Microservices",
+    "allCertificates": [
+      {
+        "title": "Microservices",
+        "imageSrc": "certificates/17-microservice/microservice-1.jpg",
+        "skills": ["Microservices"],
+        "demo": "https://www.udemy.com/certificate/UC-38dd2b10-63d3-4f4c-a19c-64609ad8b513/"
+      }
+    ]
+  },
+  {
+    "title": "Micro Frontend",
+    "allCertificates": [
+      {
+        "title": "Micro Frontend",
+        "imageSrc": "certificates/18-microfrontend/microfrontend-1.jpg",
+        "skills": ["Micro Frontend"],
+        "demo": "https://www.udemy.com/certificate/UC-35d33ab7-e830-4056-827c-5851a72d4682/"
+      }
+    ]
+  },
+  {
+    "title": "System Design",
+    "allCertificates": [
+      {
+        "title": "System Design",
+        "imageSrc": "certificates/19-systemdesign/systemdesign-1.jpg",
+        "skills": ["System Design"],
+        "demo": "https://www.udemy.com/certificate/UC-0a16f78d-b979-4794-aa84-0f605609f133/"
+      },
+      {
+        "title": "System Design",
+        "imageSrc": "certificates/19-systemdesign/systemdesign-2.jpg",
+        "skills": ["System Design"],
+        "demo": "https://www.udemy.com/certificate/UC-16e9602c-9933-47fe-b562-65b331d93008/"
+      }
+    ]
+  },
+  {
+    "title": "Redis",
+    "allCertificates": [
+      {
+        "title": "Redis",
+        "imageSrc": "certificates/20-redis/redis-1.jpg",
+        "skills": ["Redis"],
+        "demo": "https://www.udemy.com/certificate/UC-c1a4b408-ad66-447f-a325-c4350d545a72/"
+      }
+    ]
+  },
+  {
+    "title": "Linux",
+    "allCertificates": [
+      {
+        "title": "Linux",
+        "imageSrc": "certificates/21-linux/linux-1.jpg",
+        "skills": ["Linux"],
+        "demo": "https://www.udemy.com/certificate/UC-7a7b7116-7ffb-4849-a25d-4fe792d01268/"
+      }
+    ]
+  },
+  {
+    "title": "Jenkins",
+    "allCertificates": [
+      {
+        "title": "Jenkins",
+        "imageSrc": "certificates/22-jenkins/jenkins-1.jpg",
+        "skills": ["Jenkins"],
+        "demo": "https://www.udemy.com/certificate/UC-6cfcdd0a-d264-49c4-b338-3e7c74851b4c/"
+      }
+    ]
+  },
+  {
+    "title": "Ansible",
+    "allCertificates": [
+      {
+        "title": "Ansible",
+        "imageSrc": "certificates/23-ansible/ansible-1.jpg",
+        "skills": ["Ansible"],
+        "demo": "https://www.udemy.com/certificate/UC-ed5e1b86-a146-4894-a033-004caa15b68e/"
+      }
+    ]
+  },
+  {
+    "title": "Docker & Kubernetes",
+    "allCertificates": [
+      {
+        "title": "Docker & Kubernetes",
+        "imageSrc": "certificates/24-docker/docker-1.jpg",
+        "skills": ["Docker & Kubernetes"],
+        "demo": "https://www.udemy.com/certificate/UC-bea4b04e-6a2b-4aea-9f86-8bcd297a0644/"
+      }
+    ]
+  },
+  {
+    "title": "Prometheus & Grafana",
+    "allCertificates": [
+      {
+        "title": "Prometheus & Grafana",
+        "imageSrc": "certificates/25-prometheus/prometheus-1.jpg",
+        "skills": ["Prometheus & Grafana"],
+        "demo": "https://www.udemy.com/certificate/UC-cb87b94a-dca0-4848-a005-018ffb88cdb4/"
+      }
+    ]
+  },
+  {
+    "title": "Nginx",
+    "allCertificates": [
+      {
+        "title": "Nginx",
+        "imageSrc": "certificates/26-nginx/nginx-1.jpg",
+        "skills": ["Nginx"],
+        "demo": "https://www.udemy.com/certificate/UC-08af324f-124c-4e8b-8b7a-958ceb713003/"
+      }
+    ]
+  },
+  {
+    "title": "C++",
+    "allCertificates": [
+      {
+        "title": "C++",
+        "imageSrc": "certificates/27-cpp/cpp-1.jpg",
+        "skills": ["C++"],
+        "demo": "https://www.udemy.com/certificate/UC-a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6/"
+      }
+    ]
   }
 ]
