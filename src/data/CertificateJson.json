@@ -89,12 +89,6 @@
         "imageSrc": "certificates/03-css/css-4.jpg",
         "skills": ["CSS", "HTML"],
         "demo": "https://www.udemy.com/certificate/UC-af2d4386-f060-46ee-aa44-486dafc79c23/"
-      },
-      {
-        "title": "CSS",
-        "imageSrc": "certificates/03-css/css-5.jpg",
-        "skills": ["CSS", "HTML"],
-        "demo": "https://www.udemy.com/certificate/UC-91922259-50b1-4597-9287-97fd2df304ac/"
       }
     ]
   },
@@ -123,7 +117,103 @@
         "title": "Javascript",
         "imageSrc": "certificates/04-javascript/javascript-4.jpg",
         "skills": ["Javascript"],
-        "demo": "https://www.udemy.com/certificate/UC-7g8h9i0j-k1l2m3n4o5p6-1a2b3c4d-5e6f/"
+        "demo": "https://www.udemy.com/certificate/UC-12b51e3f-9c1c-422d-99d3-143136eb3cf6/"
+      },
+      {
+        "title": "Javascript",
+        "imageSrc": "certificates/04-javascript/javascript-5.jpg",
+        "skills": ["Javascript"],
+        "demo": "https://www.udemy.com/certificate/UC-30038199-5051-4de2-a4a1-ad9fd9a3ceb3/"
+      }
+    ]
+  },
+  {
+    "title": "Git",
+    "allCertificates": [
+      {
+        "title": "Git",
+        "imageSrc": "certificates/05-git/git-1.jpg",
+        "skills": ["Git"],
+        "demo": "https://www.udemy.com/certificate/UC-d6cf86dd-6547-4abf-9793-f680f302d5c0/"
+      },
+      {
+        "title": "Git",
+        "imageSrc": "certificates/05-git/git-2.jpg",
+        "skills": ["Git"],
+        "demo": "https://www.udemy.com/certificate/UC-bf79476b-94cc-4102-a86f-4f26b005853b/"
+      }
+    ]
+  },
+  {
+    "title": "React JS",
+    "allCertificates": [
+      {
+        "title": "React JS",
+        "imageSrc": "certificates/06-reactjs/reactjs-1.jpg",
+        "skills": ["React JS"],
+        "demo": "https://www.udemy.com/certificate/UC-d2356d11-ffca-484a-834e-aeca98ec44a8/"
+      },
+      {
+        "title": "React JS",
+        "imageSrc": "certificates/06-reactjs/reactjs-2.jpg",
+        "skills": ["React JS"],
+        "demo": "https://www.udemy.com/certificate/UC-0f920b8e-9f26-485c-a59c-f6b9d927451a/"
+      }
+    ]
+  },
+  {
+    "title": "Typescript",
+    "allCertificates": [
+      {
+        "title": "Typescript",
+        "imageSrc": "certificates/07-typescript/typescript-1.jpg",
+        "skills": ["Typescript"],
+        "demo": "https://www.udemy.com/certificate/UC-d2356d11-ffca-484a-834e-aeca98ec44a8/"
+      }
+    ]
+  },
+  {
+    "title": "Node JS",
+    "allCertificates": [
+      {
+        "title": "Node JS",
+        "imageSrc": "certificates/08-nodejs/nodejs-1.jpg",
+        "skills": ["Node JS"],
+        "demo": "https://www.udemy.com/certificate/UC-0c3d1b7a-bd53-41f9-93e7-0736d24a969d/"
+      },
+      {
+        "title": "Node JS",
+        "imageSrc": "certificates/08-nodejs/nodejs-2.jpg",
+        "skills": ["Node JS"],
+        "demo": "https://www.udemy.com/certificate/UC-c3095870-ca68-42d9-ad63-a86ba1023d1a/"
+      }
+    ]
+  },
+  {
+    "title": "Express JS",
+    "allCertificates": [
+      {
+        "title": "Express JS",
+        "imageSrc": "certificates/09-expressjs/expressjs-1.jpg",
+        "skills": ["Express JS"],
+        "demo": "https://www.udemy.com/certificate/UC-18633d14-1475-423a-8202-f6597591e5a5/"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB",
+    "allCertificates": [
+      {
+        "title": "MongoDB",
+        "imageSrc": "certificates/10-mongodb/mongodb-1.jpg",
+        "skills": ["MongoDB"],
+        "demo": "https://www.udemy.com/certificate/UC-79bf3f95-e818-4daf-acde-da18f0635e11/"
+      },
+      {
+        "title": "MongoDB",
+        "imageSrc": "certificates/10-mongodb/mongodb-2.jpg",
+        "skills": ["MongoDB"],
+        "demo": "https://www.udemy.com/certificate/UC-e6bd9dc5-eb4e-46fd-9df0-be31965acebe/"
       }
     ]
   }
