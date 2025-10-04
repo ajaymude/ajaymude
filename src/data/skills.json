@@ -1,9 +1,5 @@
 [
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png",
-    "category": "uiux"
-  },
+
 
   {
     "title": "HTML",
@@ -61,11 +57,7 @@
     "imageSrc": "skills/mern.png",
     "category": "fullstack"
   },
-  {
-    "title": "Next.js",
-    "imageSrc": "skills/nextjs.png",
-    "category": "fullstack"
-  },
+
 
   {
     "title": "Vitest",
@@ -78,11 +70,6 @@
     "category": "quality"
   },
 
-  {
-    "title": "Docker",
-    "imageSrc": "skills/docker.png",
-    "category": "devops"
-  },
   {
     "title": "Git",
     "imageSrc": "skills/git.png",
@@ -100,11 +87,7 @@
     "category": "apps"
   },
 
-  {
-    "title": "Electron",
-    "imageSrc": "skills/electron.png",
-    "category": "desktop"
-  },
+
 
   {
     "title": "Redux",

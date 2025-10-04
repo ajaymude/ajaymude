@@ -31,12 +31,12 @@ export const Experience = () => {
           <span className={styles.buttoncontent}>All Skills </span>
         </button>
 
-      <button
+      {/* <button
           onClick={(e) => filter(e, "uiux")}
           className={styles.button}
         s>
           <span className={styles.buttoncontent}>UI/UX Design </span>
-        </button>
+        </button> */}
 
         <button
           onClick={(e) => filter(e, "frontend")}
@@ -73,25 +73,25 @@ export const Experience = () => {
           <span className={styles.buttoncontent}>Quality Assurance</span>
         </button>
 
-        <button onClick={(e) => filter(e, "devops")} className={styles.button}>
+        {/* <button onClick={(e) => filter(e, "devops")} className={styles.button}>
           <span className={styles.buttoncontent}>DevOps </span>
-        </button>
+        </button> */}
 
         <button onClick={(e) => filter(e, "apps")} className={styles.button}>
           <span className={styles.buttoncontent}>Apps Development </span>
         </button>
 
 
-        <button onClick={(e) => filter(e, "desktop")} className={styles.button}>
+        {/* <button onClick={(e) => filter(e, "desktop")} className={styles.button}>
           <span className={styles.buttoncontent}>Desktop Apps Development </span>
-        </button>
+        </button> */}
 
 
 
 
-        <button onClick={(e) => filter(e, "extra")} className={styles.button}>
+        {/* <button onClick={(e) => filter(e, "extra")} className={styles.button}>
           <span className={styles.buttoncontent}>Additional Skills </span>
-        </button>
+        </button> */}
 
 
       </div>
