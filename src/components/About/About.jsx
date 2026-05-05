@@ -1,75 +1,65 @@
 import React from "react";
-
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+
+const aboutCards = [
+  {
+    icon: "about/frontend.png",
+    title: "Frontend Development",
+    description:
+      "Building responsive, interactive UIs with React, TypeScript, and modern CSS. Focused on performance and pixel-perfect designs.",
+    gradient: "linear-gradient(135deg, #6c63ff 0%, #4834d4 100%)",
+  },
+  {
+    icon: "about/backend.png",
+    title: "Backend Development",
+    description:
+      "Engineering robust APIs and server-side systems with Node.js, Express, and MongoDB for scalable, reliable applications.",
+    gradient: "linear-gradient(135deg, #00d4aa 0%, #0fb9b1 100%)",
+  },
+  {
+    icon: "about/appdev.png",
+    title: "App Development",
+    description:
+      "Creating cross-platform mobile experiences with React Native, delivering native performance with shared codebases.",
+    gradient: "linear-gradient(135deg, #ff6b9d 0%, #ee5a6f 100%)",
+  },
+];
 
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
-      <div className={styles.content}>
-        {/* <img
-          src={getImageUrl("about/aboutImage.jpg")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        /> */}
-        <ul className={styles.aboutItems}>
-          {/* <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/uidesign.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI UX Designer</h3>
-              <p>
-                Designed seamless and user-friendly interfaces, significantly
-                improving user interaction and engagement.
-              </p>
-            </div>
-          </li> */}
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/frontend.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                Developed robust and responsive front-end applications, ensuring
-                optimal performance and user satisfaction.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/backend.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                Engineered scalable and efficient backend systems, enhancing
-                application performance and reliability.
-              </p>
-            </div>
-          </li>
+      <h2 className={`${styles.title} reveal`}>What I Do</h2>
+      <p className={`${styles.subtitle} reveal`}>
+        I transform ideas into exceptional digital products through clean code
+        and thoughtful design.
+      </p>
 
-          
-
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/appdev.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Apps Developer</h3>
-              <p>
-                Designed and built innovative mobile applications, delivering
-                high-quality user experiences and functionality.
-              </p>
+      <div className={styles.cards}>
+        {aboutCards.map((card, index) => (
+          <div
+            key={index}
+            className={`${styles.card} reveal`}
+            style={{ animationDelay: `${index * 0.15}s` }}
+          >
+            <div
+              className={styles.cardIconWrapper}
+              style={{ background: card.gradient }}
+            >
+              <img
+                src={getImageUrl(card.icon)}
+                alt={card.title}
+                className={styles.cardIcon}
+              />
             </div>
-          </li>
-
-          {/* <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/devops.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>DevOps</h3>
-              <p>
-                Implemented robust DevOps practices, automating workflows and
-                optimizing deployment pipelines for faster and more reliable
-                releases.
-              </p>
-            </div>
-          </li> */}
-        </ul>
+            <h3 className={styles.cardTitle}>{card.title}</h3>
+            <p className={styles.cardDescription}>{card.description}</p>
+            <div
+              className={styles.cardAccent}
+              style={{ background: card.gradient }}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );

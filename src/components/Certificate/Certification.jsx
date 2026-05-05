@@ -1,33 +1,26 @@
 import React, { useState } from "react";
 import styles from "./Certification.module.css";
 import Card from "./Card";
-import projects from "../../data/certification.json";
 import projects1 from "../../data/CertificateJson.json";
 
 const Certification = () => {
-  const [skill, setSkill] = useState(projects1);
+  const [activeFilter, setActiveFilter] = useState("all");
+  const [filteredData, setFilteredData] = useState(projects1);
 
-  const filter = (e, value) => {
-    console.log(e, value);
-
-    if (value === "skills") {
-      // Reset to all
-      setSkill(projects1);
+  const handleFilter = (value) => {
+    setActiveFilter(value);
+    if (value === "all") {
+      setFilteredData(projects1);
     } else {
-      // Map through projects and filter their certificates
-      const filteredProjects = projects1
+      const filtered = projects1
         .map((project) => {
-          const filteredCertificates = project.allCertificates.filter((cert) =>
+          const filteredCerts = project.allCertificates.filter((cert) =>
             cert.skills.some((s) => s.toLowerCase() === value.toLowerCase())
           );
-          return {
-            ...project,
-            allCertificates: filteredCertificates,
-          };
+          return { ...project, allCertificates: filteredCerts };
         })
-        .filter((project) => project.allCertificates.length > 0); // remove empty groups
-
-      setSkill(filteredProjects);
+        .filter((project) => project.allCertificates.length > 0);
+      setFilteredData(filtered);
     }
   };
 
@@ -36,42 +29,56 @@ const Certification = () => {
     0
   );
 
+  const currentCount = filteredData?.reduce(
+    (acc, item) => acc + item.allCertificates.length,
+    0
+  );
+
   return (
-    <section className={styles.container} id="projects">
-      <h2 className={styles.title}>Certificates</h2>
-      <h5 style={{ textAlign: "center" }}>
-        Total certificates : {totalCertificates}
-      </h5>
-      <div className={styles.buttongroup}>
-        <button className={styles.button} onClick={(e) => setSkill(projects1)}>
-          <span className={styles.buttoncontent}>All </span>
+    <section className={styles.container} id="certificates">
+      <h2 className={`${styles.title} reveal`}>Certificates</h2>
+      <p className={`${styles.subtitle} reveal`}>
+        Continuous learning through {totalCertificates}+ professional
+        certifications across multiple technologies.
+      </p>
+
+      {/* Filter pills */}
+      <div className={`${styles.filterBar} reveal`}>
+        <button
+          className={`${styles.filterPill} ${activeFilter === "all" ? styles.filterPillActive : ""}`}
+          onClick={() => handleFilter("all")}
+        >
+          All ({totalCertificates})
         </button>
-        {projects1?.map(({ title }, id) => {
-          return (
-            <button
-              onClick={(e) => filter(e, title)}
-              className={styles.button}
-              s
-            >
-              <span className={styles.buttoncontent}>{title} </span>
-            </button>
-          );
-        })}
+        {projects1?.map(({ title }, id) => (
+          <button
+            key={id}
+            className={`${styles.filterPill} ${activeFilter === title.toLowerCase() ? styles.filterPillActive : ""}`}
+            onClick={() => handleFilter(title)}
+          >
+            {title}
+          </button>
+        ))}
       </div>
 
-      <div className={styles.projects}>
-        {/* {projects.map((project, id) => {
-          return <Card key={id} project={project} />;
-        })} */}
-        {skill.map(({ title, allCertificates }, id) => {
-          return (
-            <div key={id} className={styles.projects}>
-              {allCertificates.map((project, id) => {
-                return <Card key={id} project={project} id={id} />;
-              })}
-            </div>
-          );
-        })}
+      {/* Certificate count */}
+      {activeFilter !== "all" && (
+        <p className={styles.filterCount}>
+          Showing {currentCount} certificate{currentCount !== 1 ? "s" : ""}
+        </p>
+      )}
+
+      {/* Certificate grid */}
+      <div className={styles.certGrid}>
+        {filteredData.map(({ title, allCertificates }, groupId) =>
+          allCertificates.map((project, certId) => (
+            <Card
+              key={`${groupId}-${certId}`}
+              project={project}
+              id={certId}
+            />
+          ))
+        )}
       </div>
     </section>
   );

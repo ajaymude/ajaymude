@@ -1,124 +1,122 @@
 @import "../../vars.css";
 
 .container {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-medium);
+}
+
+.container:hover {
+  transform: translateY(-8px);
+  border-color: rgba(108, 99, 255, 0.2);
+  box-shadow: var(--shadow-glow);
+}
+
+/* Image with overlay */
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
 }
 
 .image {
-  margin-bottom: 26px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.container:hover .image {
+  transform: scale(1.08);
+}
+
+.imageOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  opacity: 0;
+  transition: opacity var(--transition-medium);
+}
+
+.container:hover .imageOverlay {
+  opacity: 1;
+}
+
+.overlayBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: var(--gradient-primary);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-primary);
+  transition: all var(--transition-fast);
+  transform: translateY(10px);
+  box-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);
+}
+
+.container:hover .overlayBtn {
+  transform: translateY(0);
+}
+
+.overlayBtn:hover {
+  box-shadow: 0 8px 25px rgba(108, 99, 255, 0.5);
+}
+
+/* Body */
+.body {
+  padding: 24px;
 }
 
 .title {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 8px;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 16px;
 }
 
 .skills {
-  width: 100%;
-  margin-top: 14px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
-  list-style: none;
 }
 
 .skill {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-accent);
+  background: rgba(108, 99, 255, 0.1);
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  padding: 4px 14px;
   border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
 }
 
-.links {
-  width: 100%;
-  margin-top: 26px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.link {
-  text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
-}
-
-
-@media screen and (max-width: 830px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
-    padding: 18px 24px;
-
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .body {
+    padding: 20px;
   }
-  
-  .image {
-    margin-bottom: 26px;
-  }
-  
-  .title {
-    font-size: 24px;
 
-  }
-  
-  .description {
-    margin-top: 6px;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  
-  .skills {
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    list-style: none;
-  }
-  
-  .skill {
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 100px;
-    background: var(--color-dark);
+  .overlayBtn {
     padding: 8px 16px;
-  }
-  
-  .links {
-    width: 100%;
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .link {
-    text-decoration: none;
-    color: var(--color-text);
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 100px;
-    background: var(--color-primary);
-    padding: 8px 22px;
+    font-size: 13px;
   }
 }

@@ -1,258 +1,275 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 100px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: 3px;
   text-align: center;
-  padding-bottom: 32px;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 14px;
-    }
-    
-    .skills {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      gap: 32px;
-  }
-  
-  .skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+  margin-bottom: 16px;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
 
-    }
-    
-    .skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 18px;
+  max-width: 600px;
+  margin: 30px auto 40px;
+  line-height: 1.7;
+}
+
+/* Filter bar */
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 48px;
+}
+
+.filterPill {
+  padding: 10px 22px;
+  border-radius: 100px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--font-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.filterPill:hover {
+  background: rgba(108, 99, 255, 0.1);
+  border-color: rgba(108, 99, 255, 0.3);
+  color: var(--color-text);
+}
+
+.filterPillActive {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);
+}
+
+/* Skills grid */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 12px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-medium);
+  cursor: default;
+  animation: fadeInUp 0.5s ease both;
+}
+
+.skillCard:hover {
+  transform: translateY(-6px);
+  border-color: rgba(108, 99, 255, 0.3);
+  background: rgba(108, 99, 255, 0.06);
+  box-shadow: var(--shadow-glow);
+}
+
+.skillIconWrap {
+  width: 56px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  border-radius: var(--border-radius-sm);
+  background: var(--color-bg-tertiary);
+  padding: 10px;
+  transition: all var(--transition-fast);
 }
 
-.skillImageContainer img {
-  width: 75px;
+.skillCard:hover .skillIconWrap {
+  background: rgba(108, 99, 255, 0.15);
+  transform: scale(1.1);
 }
 
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
-}
-
-.history {
+.skillIcon {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 16px;
+  height: 100%;
+  object-fit: contain;
 }
 
-.historyItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 24px;
+.skillName {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-align: center;
+  transition: color var(--transition-fast);
 }
 
-.historyItem img {
-  width: 50px;
+.skillCard:hover .skillName {
+  color: var(--color-text);
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
+/* Timeline */
+.timeline {
+  margin-top: 20px;
 }
 
-.historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500;
+.timelineTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text);
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.historyItemDetails p {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.historyItemDetails ul {
-  margin-top: 6px;
-  list-style-position: inside;
-  font-size: 25px;
-  list-style-type: disc;
-  margin-left: 17px;
-}
-
-/* --------- button css start -------- */
-
-.buttongroup {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 8px;
-  margin: 8px;
-  padding: 8px;
-}
-
-.button {
+.timelineItems {
   position: relative;
-  overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
-  border-radius: 1.5rem;
-  background: #3d3a4e;
-  background-size: 400%;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+  padding-left: 32px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.button:hover::before {
-  transform: scaleX(1);
-}
-
-.buttoncontent {
-  position: relative;
-  z-index: 1;
-}
-
-.button::before {
-  content: "";
+.timelineItems::before {
+  content: '';
   position: absolute;
-  top: 0;
   left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgba(150, 93, 233, 1) 10.8%,
-    rgb(31, 75, 178) 94.3%
-  );
-  transition: all 0.475s;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-accent) 0%, var(--color-accent-secondary) 100%);
+  border-radius: 2px;
 }
 
-/* --------- button css end -------- */
+.timelineItem {
+  position: relative;
+  margin-bottom: 32px;
+}
 
-@media screen and (max-width: 830px) {
+.timelineDot {
+  position: absolute;
+  left: -38px;
+  top: 16px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  border: 3px solid var(--color-bg);
+  box-shadow: 0 0 10px rgba(108, 99, 255, 0.5);
+}
+
+.timelineContent {
+  padding: 24px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-fast);
+}
+
+.timelineContent:hover {
+  border-color: rgba(108, 99, 255, 0.2);
+}
+
+.timelineHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.timelineImg {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: var(--color-bg-tertiary);
+  padding: 4px;
+}
+
+.timelineRole {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.timelineDate {
+  font-size: 14px;
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.timelineList {
+  margin-top: 12px;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.timelineList li {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
   .container {
-    margin-top: 16px;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+    padding: 60px 20px;
   }
 
-  .title {
-    color: var(--color-text);
-    font-size: 24px;
-    font-weight: 700;
-    padding: 18px 0;
+  .skillsGrid {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 10px;
   }
 
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  .skillCard {
+    padding: 16px 8px;
     gap: 8px;
   }
-  .skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    width: 25%;
+
+  .skillIconWrap {
+    width: 44px;
+    height: 44px;
   }
 
-  .skill p {
-    font-size: 16px;
+  .skillName {
+    font-size: 11px;
   }
 
-  .history {
-    width: 100%;
-    gap: 9px;
-    margin-top: 16px;
+  .filterBar {
+    gap: 6px;
   }
 
-
-  .historyItemDetails h3 {
-    font-size: 24px;
-  }
-  
-  .historyItemDetails p {
-    font-size: 16px; 
-   }
-  
-  .historyItemDetails ul {
-    font-size: 16px;
-  }
-
-  .buttongroup {
-    gap: 4px;
-  }
-
-  .button {
-    position: relative;
-    overflow: hidden;
-    height: 24px;
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .button:hover::before {
-    transform: scaleX(1);
-  }
-
-  .buttoncontent {
-    position: relative;
-    z-index: 1;
-  }
-
-  .button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    width: 100%;
-    height: inherit;
-    border-radius: inherit;
-    background: linear-gradient(
-      82.3deg,
-      rgba(150, 93, 233, 1) 10.8%,
-      rgb(31, 75, 178) 94.3%
-    );
-    transition: all 0.475s;
+  .filterPill {
+    padding: 8px 14px;
+    font-size: 12px;
   }
 }

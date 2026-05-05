@@ -1,83 +1,111 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
-  background-color: var(--color-bg);
-  min-height: 100vh;
-  min-width: 100vw;
+  padding: 100px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: 3px;
   text-align: center;
-  padding-top: 32px;
-}
-
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
-}
-
-
-
-/* --------- button css start -------- */
-
-.buttongroup {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 8px;
-  margin: 8px;
-  padding: 8px;
-}
-
-.button {
+  margin-bottom: 16px;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   position: relative;
-  overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
-  border-radius: 1.5rem;
-  background: #3d3a4e;
-  background-size: 400%;
-  color: #fff;
-  border: none;
-  cursor: pointer;
 }
 
-.button:hover::before {
-  transform: scaleX(1);
-}
-
-.buttoncontent {
-  position: relative;
-  z-index: 1;
-}
-
-.button::before {
-  content: "";
+.title::after {
+  content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgba(150, 93, 233, 1) 10.8%,
-    rgb(31, 75, 178) 94.3%
-  );
-  transition: all 0.475s;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
 }
 
-/* --------- button css end -------- */
+.subtitle {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 18px;
+  max-width: 600px;
+  margin: 30px auto 40px;
+  line-height: 1.7;
+}
+
+/* Filter bar */
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.filterPill {
+  padding: 10px 22px;
+  border-radius: 100px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--font-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.filterPill:hover {
+  background: rgba(108, 99, 255, 0.1);
+  border-color: rgba(108, 99, 255, 0.3);
+  color: var(--color-text);
+}
+
+.filterPillActive {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);
+}
+
+.filterCount {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+/* Certificate grid */
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 60px 20px;
+  }
+
+  .certGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .filterBar {
+    gap: 6px;
+  }
+
+  .filterPill {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+}
